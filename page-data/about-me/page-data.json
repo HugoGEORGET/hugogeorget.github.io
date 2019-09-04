@@ -1,0 +1,21 @@
+{
+  "componentChunkName": "component---src-pages-about-me-js",
+  "path": "/about-me/",
+  "webpackCompilationHash": "66764087a48a0d5aca19",
+  "result": {
+    "data": {
+      "avatarAbout": {
+        "childImageSharp": {
+          "fluid": {
+            "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAMEBQL/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHBl5lK4L8wZYP/xAAYEAADAQEAAAAAAAAAAAAAAAAAAQIDEP/aAAgBAQABBQIuHHEjSnXJlJ6ynqf/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAaEAACAgMAAAAAAAAAAAAAAAAAEQECECBB/9oACAEBAAY/AiH3Wgsf/8QAHBAAAgICAwAAAAAAAAAAAAAAAAERMRBBIWFx/9oACAEBAAE/ISvfDnDnyiB6xtWWpkeKpLQ7P//aAAwDAQACAAMAAAAQw8cA/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPxAf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPxAf/8QAHBABAQACAgMAAAAAAAAAAAAAAREAIRAxQVGR/9oACAEBAAE/EArDNoOKT+pxEaJszcxA7Em+GItUdNzJS2J084Ij05//2Q==",
+            "aspectRatio": 1,
+            "src": "/static/b2d5c895393d5973ac8bdb30b35a47c4/0a89a/avatar.jpg",
+            "srcSet": "/static/b2d5c895393d5973ac8bdb30b35a47c4/8539d/avatar.jpg 400w,\n/static/b2d5c895393d5973ac8bdb30b35a47c4/bc3a8/avatar.jpg 800w,\n/static/b2d5c895393d5973ac8bdb30b35a47c4/0a89a/avatar.jpg 960w",
+            "sizes": "(max-width: 960px) 100vw, 960px"
+          }
+        }
+      }
+    },
+    "pageContext": { "isCreatedByStatefulCreatePages": true }
+  }
+}

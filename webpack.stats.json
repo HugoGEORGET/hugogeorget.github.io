@@ -1,0 +1,71 @@
+{
+  "errors": [],
+  "warnings": [],
+  "namedChunkGroups": {
+    "app": {
+      "chunks": [5, 0, 1],
+      "assets": [
+        "webpack-runtime-e31b9ef87d0f7c5e0ee2.js",
+        "webpack-runtime-e31b9ef87d0f7c5e0ee2.js.map",
+        "commons-028617a5e2504ad3efb4.js",
+        "commons-028617a5e2504ad3efb4.js.map",
+        "app-5a338f7a71ff6d0cdba1.js",
+        "app-5a338f7a71ff6d0cdba1.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "component---src-pages-404-js": {
+      "chunks": [0, 2],
+      "assets": [
+        "commons-028617a5e2504ad3efb4.js",
+        "commons-028617a5e2504ad3efb4.js.map",
+        "component---src-pages-404-js-6d5e7e460c9dd0d0fd2b.js",
+        "component---src-pages-404-js-6d5e7e460c9dd0d0fd2b.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "component---src-pages-about-me-js": {
+      "chunks": [0, 3],
+      "assets": [
+        "commons-028617a5e2504ad3efb4.js",
+        "commons-028617a5e2504ad3efb4.js.map",
+        "component---src-pages-about-me-js-5f40d183543d6966744e.js",
+        "component---src-pages-about-me-js-5f40d183543d6966744e.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "component---src-pages-index-js": {
+      "chunks": [0, 4],
+      "assets": [
+        "commons-028617a5e2504ad3efb4.js",
+        "commons-028617a5e2504ad3efb4.js.map",
+        "component---src-pages-index-js-9e9ac66f5964bfc0b7e1.js",
+        "component---src-pages-index-js-9e9ac66f5964bfc0b7e1.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "assetsByChunkName": {
+    "app": [
+      "webpack-runtime-e31b9ef87d0f7c5e0ee2.js",
+      "commons-028617a5e2504ad3efb4.js",
+      "app-5a338f7a71ff6d0cdba1.js"
+    ],
+    "component---src-pages-404-js": [
+      "commons-028617a5e2504ad3efb4.js",
+      "component---src-pages-404-js-6d5e7e460c9dd0d0fd2b.js"
+    ],
+    "component---src-pages-about-me-js": [
+      "commons-028617a5e2504ad3efb4.js",
+      "component---src-pages-about-me-js-5f40d183543d6966744e.js"
+    ],
+    "component---src-pages-index-js": [
+      "commons-028617a5e2504ad3efb4.js",
+      "component---src-pages-index-js-9e9ac66f5964bfc0b7e1.js"
+    ]
+  }
+}

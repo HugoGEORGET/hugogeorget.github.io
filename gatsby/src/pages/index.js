@@ -4,6 +4,8 @@ import * as Mixins from '../Mixins';
 import * as t from '../Typography';
 import Layout, { Content } from '../components/Layout';
 import Placeholder from '../images/placeholder.png';
+import SGCareersScreenshot from '../images/SG_Careers.png';
+import HagerScreenshot from '../images/Hager.png';
 import { HireMe, LinkButton } from '../components/Button.js';
 import HireMePopup from '../components/HireMePopup.js';
 import { media } from '../MediaQueries';
@@ -149,8 +151,7 @@ class Homepage extends React.Component {
               Hugo Georget
             </t.H1>
             <t.LargeP align="center" max45>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua.
+              Front-end developer with an experience in back-end.
             </t.LargeP>
             <HireMe large onClick={this.openContactPopup} book>
               Hire me
@@ -158,12 +159,11 @@ class Homepage extends React.Component {
           </AboveFold>
           <Content>
             <t.H2 primary align="center" bold>
-              Lorem ipsum
+              Why hire me?
             </t.H2>
             <t.P align="center" max70 className="who-desc">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-              ea commodo consequat.
+              I have years of experience mostly in front-en development (ReactJS, HTML, CSS) but with some knowledge in
+              back-end (Java, Python) as well.
             </t.P>
             <t.H2 primary align="center" bold className="portfolio">
               Portfolio
@@ -172,14 +172,21 @@ class Homepage extends React.Component {
           <Block>
             <BlockContent>
               <DivWrapper>
-                <ItemImage src={Placeholder} alt="Placeholder title" />
+                <ItemImage src={SGCareersScreenshot} alt="Société Générale Careers screenshot" />
               </DivWrapper>
               <DivWrapper>
-                <t.H2 bold>Placeholder website</t.H2>
-                <t.P>Lorem ipsum</t.P>
-                <t.P>Dolor sit amet</t.P>
-                <LinkButton primary bold className="link" as="a" target="_blank" href="#">
-                  Lorem ipsum
+                <t.H2 bold>Société Générale Careers</t.H2>
+                <t.P>Implementation of the Algolia search engine using the Instantsearch.js library</t.P>
+                <t.P>Autocomplete with Selectize.js, infinite hits loading, multi index search</t.P>
+                <LinkButton
+                  primary
+                  bold
+                  className="link"
+                  as="a"
+                  target="_blank"
+                  href="https://careers.societegenerale.com/rechercher"
+                >
+                  Link
                 </LinkButton>
               </DivWrapper>
             </BlockContent>
@@ -187,45 +194,22 @@ class Homepage extends React.Component {
           <Block>
             <BlockContent>
               <DivWrapper>
-                <t.H2 bold>Placeholder website</t.H2>
-                <t.P>Lorem ipsum</t.P>
-                <t.P>Dolor sit amet</t.P>
-                <LinkButton primary bold className="link" as="a" target="_blank" href="#">
-                  Lorem ipsum
+                <t.H2 bold>Hager inspiration engine</t.H2>
+                <t.P>Implementation of Algolia search engine using the React Instantsearch library</t.P>
+                <t.P>Responsive design, PDF export</t.P>
+                <LinkButton
+                  primary
+                  bold
+                  className="link"
+                  as="a"
+                  target="_blank"
+                  href="https://particuliers.hager.fr/interrupteurs-prises/recherche/"
+                >
+                  Link
                 </LinkButton>
               </DivWrapper>
               <DivWrapper>
-                <ItemImage src={Placeholder} alt="Placeholder title" />
-              </DivWrapper>
-            </BlockContent>
-          </Block>
-          <Block>
-            <BlockContent>
-              <DivWrapper>
-                <ItemImage src={Placeholder} alt="Placeholder title" />
-              </DivWrapper>
-              <DivWrapper>
-                <t.H2 bold>Placeholder website</t.H2>
-                <t.P>Lorem ipsum</t.P>
-                <t.P>Dolor sit amet</t.P>
-                <LinkButton primary bold className="link" as="a" target="_blank" href="#">
-                  Lorem ipsum
-                </LinkButton>
-              </DivWrapper>
-            </BlockContent>
-          </Block>
-          <Block>
-            <BlockContent>
-              <DivWrapper>
-                <t.H2 bold>Placeholder website</t.H2>
-                <t.P>Lorem ipsum</t.P>
-                <t.P>Dolor sit amet</t.P>
-                <LinkButton primary bold className="link" as="a" target="_blank" href="#">
-                  Lorem ipsum
-                </LinkButton>
-              </DivWrapper>
-              <DivWrapper>
-                <ItemImage src={Placeholder} alt="Placeholder title" />
+                <ItemImage src={HagerScreenshot} alt="Hager screenshot" />
               </DivWrapper>
             </BlockContent>
           </Block>

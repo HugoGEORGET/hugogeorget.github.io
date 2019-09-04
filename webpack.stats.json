@@ -5,8 +5,8 @@
     "app": {
       "chunks": [5, 0, 1],
       "assets": [
-        "webpack-runtime-19ef45760c760633ef9d.js",
-        "webpack-runtime-19ef45760c760633ef9d.js.map",
+        "webpack-runtime-10e126b2697175e68d15.js",
+        "webpack-runtime-10e126b2697175e68d15.js.map",
         "commons-2074a45a5d10ed965c16.js",
         "commons-2074a45a5d10ed965c16.js.map",
         "app-5a338f7a71ff6d0cdba1.js",
@@ -42,8 +42,8 @@
       "assets": [
         "commons-2074a45a5d10ed965c16.js",
         "commons-2074a45a5d10ed965c16.js.map",
-        "component---src-pages-index-js-2cfa6e1c533546297b5c.js",
-        "component---src-pages-index-js-2cfa6e1c533546297b5c.js.map"
+        "component---src-pages-index-js-aa082639dd920a5f8b72.js",
+        "component---src-pages-index-js-aa082639dd920a5f8b72.js.map"
       ],
       "children": {},
       "childAssets": {}
@@ -51,7 +51,7 @@
   },
   "assetsByChunkName": {
     "app": [
-      "webpack-runtime-19ef45760c760633ef9d.js",
+      "webpack-runtime-10e126b2697175e68d15.js",
       "commons-2074a45a5d10ed965c16.js",
       "app-5a338f7a71ff6d0cdba1.js"
     ],
@@ -65,7 +65,7 @@
     ],
     "component---src-pages-index-js": [
       "commons-2074a45a5d10ed965c16.js",
-      "component---src-pages-index-js-2cfa6e1c533546297b5c.js"
+      "component---src-pages-index-js-aa082639dd920a5f8b72.js"
     ]
   }
 }

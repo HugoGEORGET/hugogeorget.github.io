@@ -34,7 +34,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "clean": "del -f \"../!(gatsby)*\" && rm -rf public",
+    "clean": "rm -f ../* && rm -rf ../404 && rm -rf ../about-me && rm -rf ../icons && rm -rf ../page-data && rm -rf ../static && rm -rf public",
     "build": "gatsby build && cp -a public/* ../",
     "develop": "gatsby develop",
     "format": "prettier --write '**/*.js'",

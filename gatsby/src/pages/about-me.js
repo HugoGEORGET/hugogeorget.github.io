@@ -84,7 +84,7 @@ class AboutMe extends React.Component {
         <Layout theme="white" openContactPopup={this.openContactPopup}>
           <AboveFold>
             <t.H1 green align="center">
-              Name Surname - Lorem ipsum
+              Hugo Georget - Full-stack developer
             </t.H1>
             <t.LargeP align="center" max70>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -95,7 +95,7 @@ class AboutMe extends React.Component {
             </t.LargeP>
           </AboveFold>
           <Content>
-            <Img fluid={data.avatarAbout.childImageSharp.fluid} alt="Name Surname" className="avatar" />
+            <Img fluid={data.avatarAbout.childImageSharp.fluid} alt="Hugo Georget" className="avatar" />
           </Content>
         </Layout>
         <HireMePopup open={openHireMePopup} handleClose={this.handleRequestDemoClose} />

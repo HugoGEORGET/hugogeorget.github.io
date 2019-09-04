@@ -212,7 +212,7 @@ class Header extends React.Component {
         </Helmet>
         <ContentWrapper>
           <Logo href="/">
-            <img src={Avatar} alt="Name Surname" />
+            <img src={Avatar} alt="Hugo Georget" />
           </Logo>
           <HeaderNav>
             <Burger alt="Menu" onClick={this.handleBurgerClick} scrolled={scrolled} theme={theme}>

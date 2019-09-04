@@ -5,12 +5,12 @@
       "use strict";
       a.r(t),
         a.d(t, "pageQuery", function() {
-          return V;
+          return H;
         });
       var n = a(0),
         r = a.n(n),
-        l = a(1),
-        o = a(73),
+        o = a(1),
+        l = a(73),
         i = a(54),
         A = a(238),
         c = a(243),
@@ -92,16 +92,16 @@
       function v(e, t) {
         return t || (t = e.slice(0)), (e.raw = t), e;
       }
-      var k = l.c.div.withConfig({
+      var k = o.c.div.withConfig({
           displayName: "pages__AboveFold",
           componentId: "sc-13he07q-0"
         })(
           ["", " padding:140px 0 60px 0;", "{color:", ";}"],
-          o.a,
+          l.a,
           i.a,
           s.a.darkest
         ),
-        q = l.c.div.withConfig({
+        q = o.c.div.withConfig({
           displayName: "pages__Block",
           componentId: "sc-13he07q-1"
         })(
@@ -109,7 +109,7 @@
           Object(f.a)(0.1, s.a.light),
           s.a.light
         ),
-        C = Object(l.c)(A.a).withConfig({
+        C = Object(o.c)(A.a).withConfig({
           displayName: "pages__BlockContent",
           componentId: "sc-13he07q-2"
         })(
@@ -121,13 +121,13 @@
             "{margin-top:10px;}",
             "{margin-top:0;}img{width:100%;height:auto;}"
           ],
-          o.b,
+          l.b,
           d.a.tablet(P()),
           d.a.phone(L()),
           i.f,
           i.b
         ),
-        O = l.c.div.withConfig({
+        O = o.c.div.withConfig({
           displayName: "pages__DivWrapper",
           componentId: "sc-13he07q-3"
         })(
@@ -135,11 +135,11 @@
           d.a.tablet(y()),
           d.a.tablet(w())
         ),
-        N = l.c.img.withConfig({
+        X = o.c.img.withConfig({
           displayName: "pages__ItemImage",
           componentId: "sc-13he07q-4"
         })(["max-width:85%;position:relative;", ""], d.a.tablet(E())),
-        X = l.c.div.withConfig({
+        N = o.c.div.withConfig({
           displayName: "pages__HomepageWrapper",
           componentId: "sc-13he07q-5"
         })(
@@ -151,13 +151,13 @@
             "}.link{padding:0;color:",
             ";text-decoration:underlined;svg{margin-left:7px;}}.portfolio{margin:100px 0 50px 0;font-size:42px;}"
           ],
-          o.d,
+          l.d,
           i.e,
           i.a,
           d.a.tablet(x()),
           s.a.darkest
         ),
-        Z = l.c.div.withConfig({
+        Z = o.c.div.withConfig({
           displayName: "pages__WorkWithMe",
           componentId: "sc-13he07q-6"
         })(
@@ -200,7 +200,7 @@
               var e = this.state.openHireMePopup,
                 t = this.props.data;
               return r.a.createElement(
-                X,
+                N,
                 null,
                 r.a.createElement(
                   A.b,
@@ -214,13 +214,13 @@
                     null,
                     r.a.createElement(h.a, {
                       fluid: t.avatarHomepage.childImageSharp.fluid,
-                      alt: "Name Surname",
+                      alt: "Hugo Georget",
                       className: "avatar"
                     }),
                     r.a.createElement(
                       i.a,
                       { primary: !0, align: "center" },
-                      "Name Surname"
+                      "Hugo Georget"
                     ),
                     r.a.createElement(
                       i.e,
@@ -266,7 +266,7 @@
                       r.a.createElement(
                         O,
                         null,
-                        r.a.createElement(N, {
+                        r.a.createElement(X, {
                           src: m.a,
                           alt: "Placeholder title"
                         })
@@ -328,7 +328,7 @@
                       r.a.createElement(
                         O,
                         null,
-                        r.a.createElement(N, {
+                        r.a.createElement(X, {
                           src: m.a,
                           alt: "Placeholder title"
                         })
@@ -344,7 +344,7 @@
                       r.a.createElement(
                         O,
                         null,
-                        r.a.createElement(N, {
+                        r.a.createElement(X, {
                           src: m.a,
                           alt: "Placeholder title"
                         })
@@ -406,7 +406,7 @@
                       r.a.createElement(
                         O,
                         null,
-                        r.a.createElement(N, {
+                        r.a.createElement(X, {
                           src: m.a,
                           alt: "Placeholder title"
                         })
@@ -424,8 +424,7 @@
                     r.a.createElement(
                       i.e,
                       null,
-                      "Fancy working with me? Contact me for more info!",
-                      " "
+                      "Fancy working with me? Contact me for more info! "
                     ),
                     r.a.createElement(
                       p.b,
@@ -444,7 +443,7 @@
           );
         })(r.a.Component);
       t.default = U;
-      var V = "4273871663";
+      var H = "4273871663";
     },
     243: function(e, t) {
       e.exports =
@@ -452,4 +451,4 @@
     }
   }
 ]);
-//# sourceMappingURL=component---src-pages-index-js-9e9ac66f5964bfc0b7e1.js.map
+//# sourceMappingURL=component---src-pages-index-js-2cfa6e1c533546297b5c.js.map

@@ -15,8 +15,8 @@
         p = n(238),
         c = n(237),
         l = n(4),
-        m = n(239),
-        d = n.n(m);
+        d = n(239),
+        m = n.n(d);
       function s() {
         var e = v(["max-width: 70%;"]);
         return (
@@ -26,8 +26,17 @@
           e
         );
       }
-      function h() {
+      function g() {
         var e = v(["max-width: 80%;"]);
+        return (
+          (g = function() {
+            return e;
+          }),
+          e
+        );
+      }
+      function h() {
+        var e = v(["text-align: center;"]);
         return (
           (h = function() {
             return e;
@@ -36,18 +45,9 @@
         );
       }
       function b() {
-        var e = v(["text-align: center;"]);
-        return (
-          (b = function() {
-            return e;
-          }),
-          e
-        );
-      }
-      function g() {
         var e = v(["min-height: 620px;"]);
         return (
-          (g = function() {
+          (b = function() {
             return e;
           }),
           e
@@ -96,9 +96,9 @@
           ],
           r.d,
           u.e,
-          l.a.phone(g()),
-          l.a.tablet(b()),
+          l.a.phone(b()),
           l.a.tablet(h()),
+          l.a.tablet(g()),
           l.a.tablet(s())
         ),
         y = (function(e) {
@@ -143,7 +143,7 @@
                     o.a.createElement(
                       u.a,
                       { green: !0, align: "center" },
-                      "Name Surname - Lorem ipsum"
+                      "Hugo Georget - Full-stack developer"
                     ),
                     o.a.createElement(
                       u.e,
@@ -154,9 +154,9 @@
                   o.a.createElement(
                     p.a,
                     null,
-                    o.a.createElement(d.a, {
+                    o.a.createElement(m.a, {
                       fluid: t.avatarAbout.childImageSharp.fluid,
-                      alt: "Name Surname",
+                      alt: "Hugo Georget",
                       className: "avatar"
                     })
                   )
@@ -175,4 +175,4 @@
     }
   }
 ]);
-//# sourceMappingURL=component---src-pages-about-me-js-5f40d183543d6966744e.js.map
+//# sourceMappingURL=component---src-pages-about-me-js-af4599797f81c03f6330.js.map

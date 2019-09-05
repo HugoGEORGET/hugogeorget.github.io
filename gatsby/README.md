@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://www.linkedin.com/in/miloslekovic/">
-    <img alt="Milos Lekovic" src="src/images/favicon.ico" width="60" />
+  <a href="https://www.linkedin.com/in/hugo-georget/">
+    <img alt="Hugo Georget" src="src/images/favicon.ico" width="60" />
   </a>
 </p>
 <h1 align="center">

@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { graphql } from 'gatsby';
 import Img from 'gatsby-image';
 import { darken } from 'polished';

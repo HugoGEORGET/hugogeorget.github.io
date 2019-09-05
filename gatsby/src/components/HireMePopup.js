@@ -87,7 +87,7 @@ class HireMePopup extends React.Component {
             <img alt="Close popup" src={Close} />
           </Burger>
           <t.H3>Contact me on</t.H3>
-          <Link primary bold target="_blank" href="https://www.linkedin.com/">
+          <Link primary bold target="_blank" href="https://www.linkedin.com/in/hugo-georget/">
             <img src={LN} alt="Your Linkedin profile" />
           </Link>
         </ContentWrapper>

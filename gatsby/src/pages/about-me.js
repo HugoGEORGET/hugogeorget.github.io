@@ -87,11 +87,8 @@ class AboutMe extends React.Component {
               Hugo Georget - Full-stack developer
             </t.H1>
             <t.LargeP align="center" max70>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-              mollit anim id est laborum.
+              Sorti de l'école d'ingénieur ISEP avec un diplôme en génie logiciel, j'ai depuis accumulé diverses
+              expériences dans le domaine de l'informatique.
             </t.LargeP>
           </AboveFold>
           <Content>

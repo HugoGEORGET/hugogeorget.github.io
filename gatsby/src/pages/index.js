@@ -1,18 +1,17 @@
+import { graphql } from 'gatsby';
+import Img from 'gatsby-image';
+import { darken } from 'polished';
 import React from 'react';
 import styled from 'styled-components';
-import * as Mixins from '../Mixins';
-import * as t from '../Typography';
-import Layout, { Content } from '../components/Layout';
-import Placeholder from '../images/placeholder.png';
-import SGCareersScreenshot from '../images/SG_Careers.png';
-import HagerScreenshot from '../images/Hager.png';
+import Colors from '../Colors';
 import { HireMe, LinkButton } from '../components/Button.js';
 import HireMePopup from '../components/HireMePopup.js';
+import Layout, { Content } from '../components/Layout';
+import HagerScreenshot from '../images/Hager.png';
+import SGCareersScreenshot from '../images/SG_Careers.png';
 import { media } from '../MediaQueries';
-import Colors from '../Colors';
-import Img from 'gatsby-image';
-import { graphql } from 'gatsby';
-import { darken } from 'polished';
+import * as Mixins from '../Mixins';
+import * as t from '../Typography';
 
 const AboveFold = styled.div`
   ${Mixins.aboveFoldMixin}

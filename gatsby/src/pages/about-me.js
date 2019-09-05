@@ -87,8 +87,8 @@ class AboutMe extends React.Component {
               Hugo Georget - Full-stack developer
             </t.H1>
             <t.LargeP align="center" max70>
-              Sorti de l'école d'ingénieur ISEP avec un diplôme en génie logiciel, j'ai depuis accumulé diverses
-              expériences dans le domaine de l'informatique.
+              Having graduated from ISEP engineering school with a degree in software engineering, I have since
+              accumulated various experiences in the field of computer science.
             </t.LargeP>
           </AboveFold>
           <Content>

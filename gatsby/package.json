@@ -34,8 +34,8 @@
   ],
   "license": "MIT",
   "scripts": {
-    "clean": "rm -f ../* && rm -rf ../404 && rm -rf ../about-me && rm -rf ../icons && rm -rf ../page-data && rm -rf ../static && rm -rf public",
-    "build": "gatsby build && cp -a public/* ../",
+    "clean": "del-cli -f \"../!(gatsby)*\"",
+    "build": "gatsby build && npm run clean && cp -a public/* ../ && rm -rf public",
     "develop": "gatsby develop",
     "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"

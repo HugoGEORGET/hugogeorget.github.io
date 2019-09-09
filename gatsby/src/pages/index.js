@@ -151,7 +151,7 @@ class Homepage extends React.Component {
               Hugo Georget
             </t.H1>
             <t.LargeP align="center" max45>
-              Front-end developer with an experience in back-end.
+              French front-end developer with an experience in back-end.
             </t.LargeP>
             <HireMe large onClick={this.openContactPopup} book>
               Hire me
@@ -162,9 +162,14 @@ class Homepage extends React.Component {
               Why hire me?
             </t.H2>
             <t.P align="center" max70 className="who-desc">
-              I have years of experience mostly in front-en development (ReactJS, HTML, CSS) but with some knowledge in
-              back-end (Java, Python) as well.
+              I have years of experience in front-end development (ReactJS, HTML, CSS), with some knowledge in back-end
+              (Java, Python) as well.
             </t.P>
+            <BlockContent>
+              <Img fluid={data.jsLogo.childImageSharp.fluid} alt="JavaScript logo" fadeIn />
+              <Img fluid={data.reactLogo.childImageSharp.fluid} alt="React logo" fadeIn />
+              <Img fluid={data.javaLogo.childImageSharp.fluid} alt="Java logo" fadeIn />
+            </BlockContent>
             <t.H2 primary align="center" bold className="portfolio">
               Portfolio
             </t.H2>
@@ -232,6 +237,15 @@ export default Homepage;
 export const pageQuery = graphql`
   query {
     avatarHomepage: file(relativePath: { eq: "avatar.jpg" }) {
+      ...fluidImage
+    }
+    jsLogo: file(relativePath: { eq: "js_logo.png" }) {
+      ...fluidImage
+    }
+    reactLogo: file(relativePath: { eq: "react_logo.png" }) {
+      ...fluidImage
+    }
+    javaLogo: file(relativePath: { eq: "java_logo.png" }) {
       ...fluidImage
     }
   }

@@ -91,6 +91,21 @@ class AboutMe extends React.Component {
               Having graduated from ISEP engineering school with a degree in software engineering, I have since
               accumulated various experiences in the field of computer science.
             </t.LargeP>
+            <t.H2>Location</t.H2>
+            <t.P>I currently live in Issy-les-Moulineaux, in the Parisian region.</t.P>
+            <t.H2>Monitoring technological developments</t.H2>
+            <t.P align="center">
+              I intend to follow the latest trends in development.
+              <br />
+              My information channels include{' '}
+              <a href="https://dev.to/" target="_blank">
+                dev.to
+              </a>{' '}
+              and the{' '}
+              <a href="https://www.reddit.com/r/programming/" target="_blank">
+                /r/Programming subreddit
+              </a>
+            </t.P>
           </AboveFold>
           <Content>
             <Img fluid={data.avatarAbout.childImageSharp.fluid} alt="Hugo Georget" className="avatar" />

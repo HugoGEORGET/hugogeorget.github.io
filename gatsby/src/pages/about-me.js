@@ -98,11 +98,11 @@ class AboutMe extends React.Component {
               I intend to follow the latest trends in development.
               <br />
               My information channels include{' '}
-              <a href="https://dev.to/" target="_blank">
+              <a href="https://dev.to/" target="_blank" rel="noopener noreferrer">
                 dev.to
               </a>{' '}
               and the{' '}
-              <a href="https://www.reddit.com/r/programming/" target="_blank">
+              <a href="https://www.reddit.com/r/programming/" target="_blank" rel="noopener noreferrer">
                 /r/Programming subreddit
               </a>
             </t.P>

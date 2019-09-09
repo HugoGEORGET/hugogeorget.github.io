@@ -88,8 +88,12 @@ class HireMePopup extends React.Component {
           </Burger>
           <t.H3>Contact me on</t.H3>
           <Link primary bold target="_blank" href="https://www.linkedin.com/in/hugo-georget/">
-            <img src={LN} alt="Your Linkedin profile" />
+            <img src={LN} alt="Hugo Georget's Linkedin profile" />
           </Link>
+          <t.H3>Send me an email :</t.H3>
+          <t.H3 noMargin>
+            <a href="mailto:hugo.georget@protonmail.com">hugo.georget@protonmail.com</a>
+          </t.H3>
         </ContentWrapper>
       </HireMePopupWrapper>
     );

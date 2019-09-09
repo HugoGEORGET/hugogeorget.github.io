@@ -1,7 +1,7 @@
 (window.webpackJsonp = window.webpackJsonp || []).push([
   [3],
   {
-    241: function(e, t, n) {
+    242: function(e, t, n) {
       "use strict";
       n.r(t),
         n.d(t, "pageQuery", function() {
@@ -11,11 +11,11 @@
         r = n.n(a),
         o = n(1),
         i = n(73),
-        l = n(54),
-        c = n(238),
-        u = n(237),
+        l = n(39),
+        c = n(239),
+        u = n(238),
         p = n(4),
-        d = n(239),
+        d = n(240),
         m = n.n(d);
       function s() {
         var e = v(["max-width: 70%;"]);
@@ -170,7 +170,11 @@
                       " ",
                       r.a.createElement(
                         "a",
-                        { href: "https://dev.to/", target: "_blank" },
+                        {
+                          href: "https://dev.to/",
+                          target: "_blank",
+                          rel: "noopener noreferrer"
+                        },
                         "dev.to"
                       ),
                       " ",
@@ -180,7 +184,8 @@
                         "a",
                         {
                           href: "https://www.reddit.com/r/programming/",
-                          target: "_blank"
+                          target: "_blank",
+                          rel: "noopener noreferrer"
                         },
                         "/r/Programming subreddit"
                       )
@@ -210,4 +215,4 @@
     }
   }
 ]);
-//# sourceMappingURL=component---src-pages-about-me-js-c920549a8cbd550c8c14.js.map
+//# sourceMappingURL=component---src-pages-about-me-js-8d1d94d07fc248622bda.js.map

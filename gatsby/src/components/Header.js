@@ -10,6 +10,7 @@ import * as t from '../Typography';
 import { lighten, darken } from 'polished';
 import Helmet from 'react-helmet';
 import Avatar from '../images/avatar.jpg';
+import GithubLogo from '../images/github_logo.png';
 
 const HeaderWrapper = styled.div`
   height: auto;
@@ -76,9 +77,19 @@ const Logo = styled.a`
     transform: scale(1.3);
   }
   ${mediaMin.desktop`
-    position: relative;
-    left: auto;
-    top: 0;
+    position: static;
+  `}
+`;
+
+const Github = styled.a`
+  position: absolute;
+  top: 16px;
+  max-width: 25px;
+  img {
+    width: 100%;
+  }
+  ${mediaMin.desktop`
+    position: static;
   `}
 `;
 
@@ -165,6 +176,13 @@ const ContentWrapper = styled.div`
   justify-content: space-between;
 `;
 
+const LogoWrapper = styled.div`
+  min-width: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+`;
+
 class Header extends React.Component {
   state = {
     showMobile: false,
@@ -211,9 +229,22 @@ class Header extends React.Component {
           <body style={{ overflow: overflow }} />
         </Helmet>
         <ContentWrapper>
-          <Logo href="/">
-            <img src={Avatar} alt="Hugo Georget" />
-          </Logo>
+          <LogoWrapper>
+            <Logo href="/">
+              <img src={Avatar} alt="Hugo Georget" />
+            </Logo>
+            <Github href="https://github.com/HugoGEORGET">
+              <img src={GithubLogo} alt="Hugo GEORGET's Github profile" />
+            </Github>
+            <a href="https://dev.to/hugogeorget">
+              <img
+                src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg"
+                alt="Hugo GEORGET's DEV Profile"
+                height="30"
+                width="30"
+              />
+            </a>
+          </LogoWrapper>
           <HeaderNav>
             <Burger alt="Menu" onClick={this.handleBurgerClick} scrolled={scrolled} theme={theme}>
               <svg
@@ -249,7 +280,7 @@ class Header extends React.Component {
                 <img alt="Close menu" src={Close} />
               </Burger>
               <li>
-                <Button theme={theme} to="about-me">
+                <Button theme={theme} to="/about-me">
                   About me
                 </Button>
               </li>

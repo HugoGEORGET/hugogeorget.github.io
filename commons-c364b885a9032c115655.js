@@ -12715,7 +12715,7 @@
         b = n(160),
         w = n.n(b);
       function T() {
-        var e = R([
+        var e = M([
           "\n    position: fixed;\n    height: auto;\n    top: 0;\n    left: 0;\n    right: 0;\n    bottom: 0;\n    background: ",
           ";\n    text-align: center;\n    padding: 0;\n    z-index: 10;\n    padding-top: 20px;\n    ",
           "\n    li {\n      display: list-item;\n      font-size: 20px;\n    }\n    ",
@@ -12729,7 +12729,7 @@
         );
       }
       function k() {
-        var e = R(["\n    display: block;\n  "]);
+        var e = M(["\n    display: block;\n  "]);
         return (
           (k = function() {
             return e;
@@ -12738,7 +12738,7 @@
         );
       }
       function x() {
-        var e = R(["\n    display: none;\n  "]);
+        var e = M(["\n    display: none;\n  "]);
         return (
           (x = function() {
             return e;
@@ -12747,7 +12747,7 @@
         );
       }
       function E() {
-        var e = R(["\n    position: static;\n  "]);
+        var e = M(["\n    display: none;\n  "]);
         return (
           (E = function() {
             return e;
@@ -12756,7 +12756,7 @@
         );
       }
       function C() {
-        var e = R(["\n    position: static;\n  "]);
+        var e = M(["\n    display: none;\n  "]);
         return (
           (C = function() {
             return e;
@@ -12765,7 +12765,7 @@
         );
       }
       function S() {
-        var e = R(["\n      margin: 30px 0 0 0;\n    "]);
+        var e = M(["\n    position: static;\n  "]);
         return (
           (S = function() {
             return e;
@@ -12774,13 +12774,7 @@
         );
       }
       function I() {
-        var e = R([
-          "\n      color: ",
-          ";\n      border: 1px solid ",
-          ";\n      &:hover {\n        color: ",
-          ";\n        border: 1px solid ",
-          ";\n      }\n    "
-        ]);
+        var e = M(["\n    position: static;\n  "]);
         return (
           (I = function() {
             return e;
@@ -12789,7 +12783,7 @@
         );
       }
       function O() {
-        var e = R(["\n      padding: 15px 20px;\n    "]);
+        var e = M(["\n      margin: 30px 0 0 0;\n    "]);
         return (
           (O = function() {
             return e;
@@ -12798,7 +12792,13 @@
         );
       }
       function P() {
-        var e = R(["\n        color: ", ";\n      "]);
+        var e = M([
+          "\n      color: ",
+          ";\n      border: 1px solid ",
+          ";\n      &:hover {\n        color: ",
+          ";\n        border: 1px solid ",
+          ";\n      }\n    "
+        ]);
         return (
           (P = function() {
             return e;
@@ -12806,10 +12806,28 @@
           e
         );
       }
-      function R(e, t) {
+      function R() {
+        var e = M(["\n      padding: 15px 20px;\n    "]);
+        return (
+          (R = function() {
+            return e;
+          }),
+          e
+        );
+      }
+      function N() {
+        var e = M(["\n        color: ", ";\n      "]);
+        return (
+          (N = function() {
+            return e;
+          }),
+          e
+        );
+      }
+      function M(e, t) {
         return t || (t = e.slice(0)), (e.raw = t), e;
       }
-      var N = c.c.div.withConfig({
+      var _ = c.c.div.withConfig({
           displayName: "Header__HeaderWrapper",
           componentId: "sc-1c3xegm-0"
         })(
@@ -12846,7 +12864,7 @@
           function(e) {
             return (e.scrolled || "white" === e.theme) && p.a.darkest + ";";
           },
-          h.a.desktop(P(), p.a.white),
+          h.a.desktop(N(), p.a.white),
           s.a,
           function(e) {
             return e.scrolled && "" + p.a.darkest;
@@ -12860,9 +12878,9 @@
           function(e) {
             return e.scrolled && "" + Object(g.b)(0.3, p.a.darkest);
           },
-          h.a.menuMax(O()),
+          h.a.menuMax(R()),
           h.a.desktop(
-            I(),
+            P(),
             p.a.white,
             p.a.white,
             function(e) {
@@ -12873,9 +12891,9 @@
             }
           ),
           s.b,
-          h.a.desktop(S())
+          h.a.desktop(O())
         ),
-        M = c.c.a.withConfig({
+        j = c.c.a.withConfig({
           displayName: "Header__Logo",
           componentId: "sc-1c3xegm-1"
         })(
@@ -12883,18 +12901,27 @@
             "position:absolute;left:30px;top:16px;max-width:43px;height:40px;border-radius:50%;overflow:hidden;align-selft:baseline;img{width:100%;transition-duration:0.4s;}&:hover img{transform:scale(1.3);}",
             ""
           ],
-          h.b.desktop(C())
+          h.b.desktop(I())
         ),
-        _ = c.c.a.withConfig({
+        U = c.c.a.withConfig({
           displayName: "Header__Github",
           componentId: "sc-1c3xegm-2"
         })(
-          ["position:absolute;top:16px;max-width:25px;img{width:100%;}", ""],
-          h.b.desktop(E())
+          [
+            "position:absolute;top:16px;max-width:25px;img{width:100%;}",
+            " ",
+            ""
+          ],
+          h.b.desktop(S()),
+          h.a.phone(C())
         ),
-        j = c.c.div.withConfig({
-          displayName: "Header__Burger",
+        L = c.c.a.withConfig({
+          displayName: "Header__DevTo",
           componentId: "sc-1c3xegm-3"
+        })(["", ""], h.a.phone(E())),
+        F = c.c.div.withConfig({
+          displayName: "Header__Burger",
+          componentId: "sc-1c3xegm-4"
         })(
           [
             "width:22px;height:22px;align-self:center;position:absolute;right:25px;top:25px;color:",
@@ -12916,9 +12943,9 @@
           },
           h.b.desktop(x())
         ),
-        U = c.c.ul.withConfig({
+        D = c.c.ul.withConfig({
           displayName: "Header__MenuList",
-          componentId: "sc-1c3xegm-4"
+          componentId: "sc-1c3xegm-5"
         })(
           [
             "list-style:none;padding:0;margin:0;display:none;height:48px;li{display:inline-block;position:relative;}",
@@ -12938,13 +12965,13 @@
             s.a
           )
         ),
-        L = c.c.div.withConfig({
+        z = c.c.div.withConfig({
           displayName: "Header__HeaderNav",
-          componentId: "sc-1c3xegm-5"
-        })(["display:flex;align-items:center;"]),
-        F = c.c.div.withConfig({
-          displayName: "Header__ContentWrapper",
           componentId: "sc-1c3xegm-6"
+        })(["display:flex;align-items:center;"]),
+        G = c.c.div.withConfig({
+          displayName: "Header__ContentWrapper",
+          componentId: "sc-1c3xegm-7"
         })(
           [
             "",
@@ -12952,13 +12979,13 @@
           ],
           A.c
         ),
-        D = c.c.div.withConfig({
+        H = c.c.div.withConfig({
           displayName: "Header__LogoWrapper",
-          componentId: "sc-1c3xegm-7"
+          componentId: "sc-1c3xegm-8"
         })([
           "min-width:140px;display:flex;align-items:center;justify-content:space-between;"
         ]),
-        z = (function(e) {
+        B = (function(e) {
           var t, n;
           function r() {
             for (
@@ -13010,7 +13037,7 @@
                 r = e.theme,
                 o = t ? "hidden" : "auto";
               return a.a.createElement(
-                N,
+                _,
                 { theme: r, scrolled: n },
                 a.a.createElement(
                   l.a,
@@ -13018,13 +13045,13 @@
                   a.a.createElement("body", { style: { overflow: o } })
                 ),
                 a.a.createElement(
-                  F,
+                  G,
                   null,
                   a.a.createElement(
-                    D,
+                    H,
                     null,
                     a.a.createElement(
-                      M,
+                      j,
                       { href: "/" },
                       a.a.createElement("img", {
                         src: v.a,
@@ -13032,7 +13059,7 @@
                       })
                     ),
                     a.a.createElement(
-                      _,
+                      U,
                       { href: "https://github.com/HugoGEORGET" },
                       a.a.createElement("img", {
                         src: w.a,
@@ -13040,7 +13067,7 @@
                       })
                     ),
                     a.a.createElement(
-                      "a",
+                      L,
                       { href: "https://dev.to/hugogeorget" },
                       a.a.createElement("img", {
                         src:
@@ -13052,10 +13079,10 @@
                     )
                   ),
                   a.a.createElement(
-                    L,
+                    z,
                     null,
                     a.a.createElement(
-                      j,
+                      F,
                       {
                         alt: "Menu",
                         onClick: this.handleBurgerClick,
@@ -13099,10 +13126,10 @@
                       )
                     ),
                     a.a.createElement(
-                      U,
+                      D,
                       t && { showMobile: t },
                       a.a.createElement(
-                        j,
+                        F,
                         { onClick: this.handleClose },
                         a.a.createElement("img", {
                           alt: "Close menu",
@@ -13139,21 +13166,21 @@
             r
           );
         })(a.a.Component),
-        G = Object(c.d)(z);
+        V = Object(c.d)(B);
       n(20), n(230);
-      function H() {
+      function W() {
         var e = (function(e, t) {
           t || (t = e.slice(0));
           return (e.raw = t), e;
         })(["padding: ", " 20px 50px 20px;"]);
         return (
-          (H = function() {
+          (W = function() {
             return e;
           }),
           e
         );
       }
-      var B = c.c.div.withConfig({
+      var Q = c.c.div.withConfig({
           displayName: "Footer__FooterWrapper",
           componentId: "sc-1akt6fb-0"
         })(
@@ -13163,32 +13190,32 @@
           function(e) {
             return e.big ? "210px" : e.medium ? "100px" : "80px";
           },
-          h.a.tablet(H(), function(e) {
+          h.a.tablet(W(), function(e) {
             return e.big ? "150px" : e.medium ? "100px" : "128px";
           })
         ),
-        V = c.c.p.withConfig({
+        K = c.c.p.withConfig({
           displayName: "Footer__Copyright",
           componentId: "sc-1akt6fb-1"
         })(["text-align:center;"]),
-        W = function(e) {
+        q = function(e) {
           var t = e.big,
             n = e.medium;
           return a.a.createElement(
-            B,
+            Q,
             Object.assign({}, t && { big: t }, n && { medium: n }),
             a.a.createElement(
-              q,
+              Z,
               null,
               a.a.createElement(
-                V,
+                K,
                 { white: !0, align: "center" },
                 "© Hugo Georget 2019. All rights reserved."
               )
             )
           );
         };
-      function Q() {
+      function Y() {
         var e = (function(e, t) {
           t || (t = e.slice(0));
           return (e.raw = t), e;
@@ -13196,21 +13223,21 @@
           "\n  @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');\n  html {\n    font-family: 'Lato', sans-serif;\n    -ms-text-size-adjust: 100%;\n    -webkit-text-size-adjust: 100%;\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n  }\n  body {\n    margin: 0;\n    font-family: 'Lato', sans-serif;\n    background-color: #eff4f7;\n  }\n  * {\n    box-sizing: inherit;\n  }\n  *:before {\n    box-sizing: inherit;\n  }\n  *:after {\n    box-sizing: inherit;\n  }\n  \n  @media (max-width: 940px) {\n    .mobile-hide {\n      display: none;\n    }\n  }\n  @keyframes fadein {\n    from {\n      background-color: transparent;\n    }\n    to {\n      background-color: #ffffff;\n    }\n  }\n  \n  @keyframes fadeout {\n    from {\n      background-color: #ffffff;\n    }\n    to {\n      background-color: transparent;\n    }\n  }\n  @keyframes slidein {\n    from {\n      left: 100%;\n    }\n    to {\n      left: 0;\n    }\n  }\n  \n  @keyframes slideout {\n    from {\n      left: 0;\n    }\n    to {\n      left: 100%;\n    }\n  }\n"
         ]);
         return (
-          (Q = function() {
+          (Y = function() {
             return e;
           }),
           e
         );
       }
-      var K = Object(c.a)(Q());
+      var J = Object(c.a)(Y());
       n.d(t, "a", function() {
-        return q;
+        return Z;
       });
-      var q = c.c.div.withConfig({
+      var Z = c.c.div.withConfig({
           displayName: "Layout__Content",
           componentId: "sc-1pgzbyb-0"
         })(["", ""], A.c),
-        Y = c.c.div.withConfig({
+        X = c.c.div.withConfig({
           displayName: "Layout__LayoutWrapper",
           componentId: "sc-1pgzbyb-1"
         })(["position:relative;"]);
@@ -13226,7 +13253,7 @@
             return a.a.createElement(
               a.a.Fragment,
               null,
-              a.a.createElement(K, null),
+              a.a.createElement(J, null),
               a.a.createElement(
                 l.a,
                 {
@@ -13241,9 +13268,9 @@
                 },
                 a.a.createElement("html", { lang: "en" })
               ),
-              a.a.createElement(G, { theme: n, openContactPopup: c }),
-              a.a.createElement(Y, null, t),
-              a.a.createElement(W, { big: o, medium: i, openContactPopup: c })
+              a.a.createElement(V, { theme: n, openContactPopup: c }),
+              a.a.createElement(X, null, t),
+              a.a.createElement(q, { big: o, medium: i, openContactPopup: c })
             );
           },
           data: r
@@ -13822,4 +13849,4 @@
     }
   ]
 ]);
-//# sourceMappingURL=commons-993bcf13ee969fbcf481.js.map
+//# sourceMappingURL=commons-c364b885a9032c115655.js.map

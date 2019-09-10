@@ -91,6 +91,15 @@ const Github = styled.a`
   ${mediaMin.desktop`
     position: static;
   `}
+  ${media.phone`
+    display: none;
+  `}
+`;
+
+const DevTo = styled.a`
+  ${media.phone`
+    display: none;
+  `}
 `;
 
 const Burger = styled.div`
@@ -236,14 +245,14 @@ class Header extends React.Component {
             <Github href="https://github.com/HugoGEORGET">
               <img src={GithubLogo} alt="Hugo GEORGET's Github profile" />
             </Github>
-            <a href="https://dev.to/hugogeorget">
+            <DevTo href="https://dev.to/hugogeorget">
               <img
                 src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg"
                 alt="Hugo GEORGET's DEV Profile"
                 height="30"
                 width="30"
               />
-            </a>
+            </DevTo>
           </LogoWrapper>
           <HeaderNav>
             <Burger alt="Menu" onClick={this.handleBurgerClick} scrolled={scrolled} theme={theme}>

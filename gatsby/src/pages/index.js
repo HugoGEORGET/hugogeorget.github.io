@@ -10,6 +10,7 @@ import HireMePopup from '../components/HireMePopup.js';
 import Layout, { Content } from '../components/Layout';
 import HagerScreenshot from '../images/Hager.png';
 import SGCareersScreenshot from '../images/SG_Careers.png';
+import PortfolioScreenshot from '../images/portfolio.png';
 import { media } from '../MediaQueries';
 import * as Mixins from '../Mixins';
 import * as t from '../Typography';
@@ -215,6 +216,21 @@ class Homepage extends React.Component {
               </DivWrapper>
               <DivWrapper>
                 <ItemImage src={HagerScreenshot} alt="Hager screenshot" />
+              </DivWrapper>
+            </BlockContent>
+          </Block>
+          <Block>
+            <BlockContent>
+              <DivWrapper>
+                <t.H2 bold>This website !</t.H2>
+                <t.P>Created using the portfolio-website-gatsby Gatsby template</t.P>
+                <t.P>Gatsby, Responsive design</t.P>
+                <LinkButton primary bold className="link" as="a" href="https://georget.github.io/">
+                  Link
+                </LinkButton>
+              </DivWrapper>
+              <DivWrapper>
+                <ItemImage src={PortfolioScreenshot} alt="Portfolio screenshot" />
               </DivWrapper>
             </BlockContent>
           </Block>

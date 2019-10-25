@@ -1,51 +1,35 @@
 (window.webpackJsonp = window.webpackJsonp || []).push([
   [4],
   {
-    243: function(e, a, t) {
+    243: function(e, t, a) {
       "use strict";
-      t.r(a),
-        t.d(a, "pageQuery", function() {
-          return M;
+      a.r(t),
+        a.d(t, "pageQuery", function() {
+          return A;
         });
-      var n = t(240),
-        r = t.n(n),
-        o = t(10),
-        i = t(0),
-        l = t.n(i),
-        c = t(1),
-        p = t(2),
-        m = t(58),
-        s = t(238),
-        d = t(239),
-        u = t(244),
-        g = t.n(u),
-        h = t(245),
-        f = t.n(h),
-        b = t(4),
-        x = t(73),
-        E = t(39);
-      function w() {
-        var e = S([
+      var n = a(240),
+        r = a.n(n),
+        o = a(10),
+        i = a(0),
+        l = a.n(i),
+        c = a(1),
+        p = a(2),
+        s = a(58),
+        m = a(238),
+        u = a(239),
+        d = a(244),
+        g = a.n(d),
+        h = a(245),
+        f = a.n(h),
+        b = a(246),
+        x = a.n(b),
+        E = a(4),
+        w = a(73),
+        v = a(39);
+      function y() {
+        var e = N([
           "\n    width: auto;\n    padding: 40px;\n    margin: 50px 30px -100px 30px;\n  "
         ]);
-        return (
-          (w = function() {
-            return e;
-          }),
-          e
-        );
-      }
-      function v() {
-        var e = S(["max-width: 70%;"]);
-        return (
-          (v = function() {
-            return e;
-          }),
-          e
-        );
-      }
-      function y() {
-        var e = S(["max-width: none;"]);
         return (
           (y = function() {
             return e;
@@ -54,7 +38,7 @@
         );
       }
       function k() {
-        var e = S(["\n      margin-bottom: 40px;\n  "]);
+        var e = N(["max-width: 70%;"]);
         return (
           (k = function() {
             return e;
@@ -63,7 +47,7 @@
         );
       }
       function C() {
-        var e = S(["padding: 50px 0;"]);
+        var e = N(["max-width: none;"]);
         return (
           (C = function() {
             return e;
@@ -72,7 +56,7 @@
         );
       }
       function I() {
-        var e = S(["\n    padding: 40px 10px;\n  "]);
+        var e = N(["\n      margin-bottom: 40px;\n  "]);
         return (
           (I = function() {
             return e;
@@ -81,9 +65,7 @@
         );
       }
       function _() {
-        var e = S([
-          "\n    flex-direction: column;\n    align-items: baseline;\n  "
-        ]);
+        var e = N(["padding: 50px 0;"]);
         return (
           (_ = function() {
             return e;
@@ -91,19 +73,39 @@
           e
         );
       }
-      function S(e, a) {
-        return a || (a = e.slice(0)), (e.raw = a), e;
+      function S() {
+        var e = N(["\n    padding: 40px 10px;\n  "]);
+        return (
+          (S = function() {
+            return e;
+          }),
+          e
+        );
       }
-      var H = c.c.div.withConfig({
+      function H() {
+        var e = N([
+          "\n    flex-direction: column;\n    align-items: baseline;\n  "
+        ]);
+        return (
+          (H = function() {
+            return e;
+          }),
+          e
+        );
+      }
+      function N(e, t) {
+        return t || (t = e.slice(0)), (e.raw = t), e;
+      }
+      var P = c.c.div.withConfig({
           displayName: "pages__AboveFold",
           componentId: "sc-13he07q-0"
         })(
           ["", " padding:140px 0 60px 0;", "{color:", ";}"],
-          x.a,
-          E.a,
+          w.a,
+          v.a,
           p.a.darkest
         ),
-        N = c.c.div.withConfig({
+        q = c.c.div.withConfig({
           displayName: "pages__Block",
           componentId: "sc-13he07q-1"
         })(
@@ -111,7 +113,7 @@
           Object(o.a)(0.1, p.a.light),
           p.a.light
         ),
-        P = Object(c.c)(d.a).withConfig({
+        G = Object(c.c)(u.a).withConfig({
           displayName: "pages__BlockContent",
           componentId: "sc-13he07q-2"
         })(
@@ -123,25 +125,25 @@
             "{margin-top:10px;}",
             "{margin-top:0;}img{width:100%;height:auto;}"
           ],
-          x.b,
-          b.a.tablet(_()),
-          b.a.phone(I()),
-          E.f,
-          E.b
+          w.b,
+          E.a.tablet(H()),
+          E.a.phone(S()),
+          v.f,
+          v.b
         ),
-        q = c.c.div.withConfig({
+        j = c.c.div.withConfig({
           displayName: "pages__DivWrapper",
           componentId: "sc-13he07q-3"
         })(
           ["padding:80px 30px;", " &:first-child{", ";}"],
-          b.a.tablet(C()),
-          b.a.tablet(k())
+          E.a.tablet(_()),
+          E.a.tablet(I())
         ),
-        j = c.c.img.withConfig({
+        L = c.c.img.withConfig({
           displayName: "pages__ItemImage",
           componentId: "sc-13he07q-4"
-        })(["max-width:85%;position:relative;", ""], b.a.tablet(y())),
-        G = c.c.div.withConfig({
+        })(["max-width:85%;position:relative;", ""], E.a.tablet(C())),
+        R = c.c.div.withConfig({
           displayName: "pages__HomepageWrapper",
           componentId: "sc-13he07q-5"
         })(
@@ -153,10 +155,10 @@
             "}.link{padding:0;color:",
             ";text-decoration:underlined;svg{margin-left:7px;}}.portfolio{margin:100px 0 50px 0;font-size:42px;}"
           ],
-          x.d,
-          E.e,
-          E.a,
-          b.a.tablet(v()),
+          w.d,
+          v.e,
+          v.a,
+          E.a.tablet(k()),
           p.a.darkest
         ),
         J = c.c.div.withConfig({
@@ -168,107 +170,107 @@
             "{max-width:80%;margin:0 auto 28px auto;}",
             ";"
           ],
-          E.e,
-          b.a.tablet(w())
+          v.e,
+          E.a.tablet(y())
         ),
-        L = (function(e) {
-          var a, t;
+        M = (function(e) {
+          var t, a;
           function n() {
             for (
-              var a, t = arguments.length, n = new Array(t), r = 0;
-              r < t;
+              var t, a = arguments.length, n = new Array(a), r = 0;
+              r < a;
               r++
             )
               n[r] = arguments[r];
             return (
-              ((a = e.call.apply(e, [this].concat(n)) || this).state = {
+              ((t = e.call.apply(e, [this].concat(n)) || this).state = {
                 openHireMePopup: !1
               }),
-              (a.handleRequestDemoClose = function() {
-                a.setState({ openHireMePopup: !1 });
+              (t.handleRequestDemoClose = function() {
+                t.setState({ openHireMePopup: !1 });
               }),
-              (a.openContactPopup = function() {
-                a.setState({ openHireMePopup: !0 });
+              (t.openContactPopup = function() {
+                t.setState({ openHireMePopup: !0 });
               }),
-              a
+              t
             );
           }
           return (
-            (t = e),
-            ((a = n).prototype = Object.create(t.prototype)),
-            (a.prototype.constructor = a),
-            (a.__proto__ = t),
+            (a = e),
+            ((t = n).prototype = Object.create(a.prototype)),
+            (t.prototype.constructor = t),
+            (t.__proto__ = a),
             (n.prototype.render = function() {
               var e = this.state.openHireMePopup,
-                a = this.props.data;
+                t = this.props.data;
               return l.a.createElement(
-                G,
+                R,
                 null,
                 l.a.createElement(
-                  d.b,
+                  u.b,
                   {
                     theme: "white",
                     bigFooter: !0,
                     openContactPopup: this.openContactPopup
                   },
                   l.a.createElement(
-                    H,
+                    P,
                     null,
                     l.a.createElement(r.a, {
-                      fluid: a.avatarHomepage.childImageSharp.fluid,
+                      fluid: t.avatarHomepage.childImageSharp.fluid,
                       alt: "Hugo Georget",
                       className: "avatar"
                     }),
                     l.a.createElement(
-                      E.a,
+                      v.a,
                       { primary: !0, align: "center" },
                       "Hugo Georget"
                     ),
                     l.a.createElement(
-                      E.e,
+                      v.e,
                       { align: "center", max45: !0 },
                       "French front-end developer with an experience in back-end."
                     ),
                     l.a.createElement(
-                      m.b,
+                      s.b,
                       { large: !0, onClick: this.openContactPopup, book: !0 },
                       "Hire me"
                     )
                   ),
                   l.a.createElement(
-                    d.a,
+                    u.a,
                     null,
                     l.a.createElement(
-                      E.b,
+                      v.b,
                       { primary: !0, align: "center", bold: !0 },
                       "Why hire me?"
                     ),
                     l.a.createElement(
-                      E.f,
+                      v.f,
                       { align: "center", max70: !0, className: "who-desc" },
                       "I have years of experience in front-end development (ReactJS, HTML, CSS), with some knowledge in back-end (Java, Python) as well."
                     ),
                     l.a.createElement(
-                      P,
+                      G,
                       null,
                       l.a.createElement(r.a, {
-                        fluid: a.jsLogo.childImageSharp.fluid,
+                        fluid: t.jsLogo.childImageSharp.fluid,
                         alt: "JavaScript logo",
                         fadeIn: !0
                       }),
                       l.a.createElement(r.a, {
-                        fluid: a.reactLogo.childImageSharp.fluid,
+                        fluid: t.reactLogo.childImageSharp.fluid,
                         alt: "React logo",
                         fadeIn: !0
                       }),
                       l.a.createElement(r.a, {
-                        fluid: a.javaLogo.childImageSharp.fluid,
+                        fluid: t.javaLogo.childImageSharp.fluid,
                         alt: "Java logo",
                         fadeIn: !0
                       })
                     ),
                     l.a.createElement(
-                      E.b,
+                      v.b,
                       {
                         primary: !0,
                         align: "center",
@@ -279,39 +281,39 @@
                     )
                   ),
                   l.a.createElement(
-                    N,
+                    q,
                     null,
                     l.a.createElement(
-                      P,
+                      G,
                       null,
                       l.a.createElement(
-                        q,
+                        j,
                         null,
-                        l.a.createElement(j, {
+                        l.a.createElement(L, {
                           src: f.a,
                           alt: "Société Générale Careers screenshot"
                         })
                       ),
                       l.a.createElement(
-                        q,
+                        j,
                         null,
                         l.a.createElement(
-                          E.b,
+                          v.b,
                           { bold: !0 },
                           "Société Générale Careers"
                         ),
                         l.a.createElement(
-                          E.f,
+                          v.f,
                           null,
                           "Implementation of the Algolia search engine using the Instantsearch.js library"
                         ),
                         l.a.createElement(
-                          E.f,
+                          v.f,
                           null,
                           "Autocomplete with Selectize.js, infinite hits loading, multi index search"
                         ),
                         l.a.createElement(
-                          m.c,
+                          s.c,
                           {
                             primary: !0,
                             bold: !0,
@@ -327,31 +329,31 @@
                     )
                   ),
                   l.a.createElement(
-                    N,
+                    q,
                     null,
                     l.a.createElement(
-                      P,
+                      G,
                       null,
                       l.a.createElement(
-                        q,
+                        j,
                         null,
                         l.a.createElement(
-                          E.b,
+                          v.b,
                           { bold: !0 },
                           "Hager inspiration engine"
                         ),
                         l.a.createElement(
-                          E.f,
+                          v.f,
                           null,
                           "Implementation of Algolia search engine using the React Instantsearch library"
                         ),
                         l.a.createElement(
-                          E.f,
+                          v.f,
                           null,
                           "Responsive design, PDF export"
                         ),
                         l.a.createElement(
-                          m.c,
+                          s.c,
                           {
                             primary: !0,
                             bold: !0,
@@ -365,11 +367,53 @@
                         )
                       ),
                       l.a.createElement(
-                        q,
+                        j,
                         null,
-                        l.a.createElement(j, {
+                        l.a.createElement(L, {
                           src: g.a,
                           alt: "Hager screenshot"
+                        })
+                      )
+                    )
+                  ),
+                  l.a.createElement(
+                    q,
+                    null,
+                    l.a.createElement(
+                      G,
+                      null,
+                      l.a.createElement(
+                        j,
+                        null,
+                        l.a.createElement(v.b, { bold: !0 }, "This website !"),
+                        l.a.createElement(
+                          v.f,
+                          null,
+                          "Created using the portfolio-website-gatsby Gatsby template"
+                        ),
+                        l.a.createElement(
+                          v.f,
+                          null,
+                          "Gatsby, Responsive design"
+                        ),
+                        l.a.createElement(
+                          s.c,
+                          {
+                            primary: !0,
+                            bold: !0,
+                            className: "link",
+                            as: "a",
+                            href: "https://georget.github.io/"
+                          },
+                          "Link"
+                        )
+                      ),
+                      l.a.createElement(
+                        j,
+                        null,
+                        l.a.createElement(L, {
+                          src: x.a,
+                          alt: "Portfolio screenshot"
                         })
                       )
                     )
@@ -378,23 +422,23 @@
                     J,
                     null,
                     l.a.createElement(
-                      E.a,
+                      v.a,
                       { green: !0 },
                       "Get in touch with me"
                     ),
                     l.a.createElement(
-                      E.e,
+                      v.e,
                       null,
                       "Fancy working with me? Contact me for more info! "
                     ),
                     l.a.createElement(
-                      m.b,
+                      s.b,
                       { onClick: this.openContactPopup, book: !0 },
                       "Contact me"
                     )
                   )
                 ),
-                l.a.createElement(s.a, {
+                l.a.createElement(m.a, {
                   open: e,
                   handleClose: this.handleRequestDemoClose
                 })
@@ -403,16 +447,19 @@
             n
           );
         })(l.a.Component);
-      a.default = L;
-      var M = "1595649761";
+      t.default = M;
+      var A = "1595649761";
     },
-    244: function(e, a, t) {
-      e.exports = t.p + "static/Hager-43f83f7285957bb82db9bd9c8589e301.png";
+    244: function(e, t, a) {
+      e.exports = a.p + "static/Hager-43f83f7285957bb82db9bd9c8589e301.png";
     },
-    245: function(e, a, t) {
+    245: function(e, t, a) {
       e.exports =
-        t.p + "static/SG_Careers-0201148bf85481410187d7ac4f6b3f8b.png";
+        a.p + "static/SG_Careers-0201148bf85481410187d7ac4f6b3f8b.png";
+    },
+    246: function(e, t, a) {
+      e.exports = a.p + "static/portfolio-91217379786a167b4c8d5a3abeef2181.png";
     }
   }
 ]);
-//# sourceMappingURL=component---src-pages-index-js-277d5113399a732341e4.js.map
+//# sourceMappingURL=component---src-pages-index-js-a0b73e13b8163121ce7f.js.map

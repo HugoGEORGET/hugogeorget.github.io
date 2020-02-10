@@ -1,21 +1,22 @@
 {
   "componentChunkName": "component---src-pages-about-me-js",
   "path": "/about-me/",
-  "webpackCompilationHash": "b10ba560d7fe9cc8359c",
   "result": {
     "data": {
       "avatarAbout": {
+        "id": "d52d3be6-3043-57d2-bf57-e39e030107c3",
         "childImageSharp": {
+          "id": "4cba8a93-dab7-5545-8642-ab29bc6e36c3",
           "fluid": {
             "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAVABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAIDBAX/xAAWAQEBAQAAAAAAAAAAAAAAAAABAgD/2gAMAwEAAhADEAAAAdNdMTawPJkUaRNf/8QAHRAAAgICAwEAAAAAAAAAAAAAAQIAAwQjEhMhM//aAAgBAQABBQIKBB63WsyLSpu1FH5Jk/TJMpOr/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFhEAAwAAAAAAAAAAAAAAAAAAABAh/9oACAECAQE/ASv/xAAcEAACAgIDAAAAAAAAAAAAAAAAAQIhETFBcYH/2gAIAQEABj8CrJouxRRFx5Ezwh0I/8QAGxABAAMBAAMAAAAAAAAAAAAAAQARITFBUXH/2gAIAQEAAT8hBaWxv5EG9HqcqYzWU8lluRrA8mcL0jk6zaP/2gAMAwEAAgADAAAAEK8gPP/EABgRAQEAAwAAAAAAAAAAAAAAAAEAEBEx/9oACAEDAQE/EBLRg5f/xAAaEQACAgMAAAAAAAAAAAAAAAAAAREhMUFR/9oACAECAQE/ELeyehDyf//EAB8QAQACAgICAwAAAAAAAAAAAAEAESExQVFhcaGxwf/aAAgBAQABPxBWMkFmnTjvLFZQVtKq8t+79xUBsAdAcYjgjeUvcLWS4LHXxLlA3Idx0+B+wEdEmDq/uf/Z",
             "aspectRatio": 0.9583095374071959,
-            "src": "/static/6536a85f68c696d4e9bb4999848f64a7/989b1/avatar.jpg",
-            "srcSet": "/static/6536a85f68c696d4e9bb4999848f64a7/8539d/avatar.jpg 400w,\n/static/6536a85f68c696d4e9bb4999848f64a7/bc3a8/avatar.jpg 800w,\n/static/6536a85f68c696d4e9bb4999848f64a7/989b1/avatar.jpg 1600w,\n/static/6536a85f68c696d4e9bb4999848f64a7/7bd40/avatar.jpg 1678w",
+            "src": "/static/6536a85f68c696d4e9bb4999848f64a7/0e329/avatar.jpg",
+            "srcSet": "/static/6536a85f68c696d4e9bb4999848f64a7/2244e/avatar.jpg 400w,\n/static/6536a85f68c696d4e9bb4999848f64a7/14b42/avatar.jpg 800w,\n/static/6536a85f68c696d4e9bb4999848f64a7/0e329/avatar.jpg 1600w,\n/static/6536a85f68c696d4e9bb4999848f64a7/11584/avatar.jpg 1678w",
             "sizes": "(max-width: 1600px) 100vw, 1600px"
           }
         }
       }
     },
-    "pageContext": { "isCreatedByStatefulCreatePages": true }
+    "pageContext": {}
   }
 }

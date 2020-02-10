@@ -163,13 +163,13 @@ class Homepage extends React.Component {
               Why hire me?
             </t.H2>
             <t.P align="center" max70 className="who-desc">
-              I have years of experience in front-end development (ReactJS, HTML, CSS), with some knowledge in back-end
-              (Java, Python) as well.
+              I have years of experience in web development (ReactJS, HTML, CSS), with some knowledge in back-end (Java,
+              Python, NodeJS) as well.
             </t.P>
             <BlockContent>
               <Img fluid={data.jsLogo.childImageSharp.fluid} alt="JavaScript logo" fadeIn />
               <Img fluid={data.reactLogo.childImageSharp.fluid} alt="React logo" fadeIn />
-              <Img fluid={data.javaLogo.childImageSharp.fluid} alt="Java logo" fadeIn />
+              <Img fluid={data.nodeLogo.childImageSharp.fluid} alt="Node logo" fadeIn />
             </BlockContent>
             <t.H2 primary align="center" bold className="portfolio">
               Portfolio
@@ -222,15 +222,26 @@ class Homepage extends React.Component {
           <Block>
             <BlockContent>
               <DivWrapper>
+                <ItemImage src={PortfolioScreenshot} alt="Portfolio screenshot" />
+              </DivWrapper>
+              <DivWrapper>
                 <t.H2 bold>This website !</t.H2>
                 <t.P>Created using the portfolio-website-gatsby Gatsby template</t.P>
                 <t.P>Gatsby, Responsive design</t.P>
-                <LinkButton primary bold className="link" as="a" href="https://georget.github.io/">
+                <LinkButton primary bold className="link" as="a" href="https://hugogeorget.github.io/">
                   Link
                 </LinkButton>
               </DivWrapper>
+            </BlockContent>
+          </Block>
+          <Block>
+            <BlockContent>
               <DivWrapper>
-                <ItemImage src={PortfolioScreenshot} alt="Portfolio screenshot" />
+                <t.H2 bold>And more !</t.H2>
+                <t.P>Check out my GitHub profile page to see more project I built !</t.P>
+                <LinkButton primary bold className="link" as="a" href="https://github.com/HugoGEORGET?tab=repositories">
+                  Link
+                </LinkButton>
               </DivWrapper>
             </BlockContent>
           </Block>
@@ -256,13 +267,16 @@ export const pageQuery = graphql`
       ...fluidImage
     }
     jsLogo: file(relativePath: { eq: "js_logo.png" }) {
-      ...fluidImage
+      ...logoImage
     }
     reactLogo: file(relativePath: { eq: "react_logo.png" }) {
-      ...fluidImage
+      ...logoImage
     }
     javaLogo: file(relativePath: { eq: "java_logo.png" }) {
-      ...fluidImage
+      ...logoImage
+    }
+    nodeLogo: file(relativePath: { eq: "node-logo.webp" }) {
+      ...logoImage
     }
   }
 `;

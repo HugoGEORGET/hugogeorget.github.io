@@ -40,4 +40,14 @@ export const fluidImage = graphql`
   }
 `;
 
+export const logoImage = graphql`
+  fragment logoImage on File {
+    childImageSharp {
+      fluid(maxWidth: 1600, maxHeight: 1800, fit: CONTAIN, background: "transparent") {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+`;
+
 export default Image;

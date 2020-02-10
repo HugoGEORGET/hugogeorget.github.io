@@ -1,6 +1,5 @@
 {
   "componentChunkName": "component---src-pages-404-js",
   "path": "/404.html",
-  "webpackCompilationHash": "b10ba560d7fe9cc8359c",
-  "result": { "pageContext": { "isCreatedByStatefulCreatePages": true } }
+  "result": { "pageContext": {} }
 }

@@ -1,18 +1,17 @@
 {
   "componentChunkName": "component---cache-dev-404-page-js",
   "path": "/dev-404-page/",
-  "webpackCompilationHash": "",
   "result": {
     "data": {
       "allSitePage": {
         "nodes": [
-          { "path": "/404/" },
-          { "path": "/about-me/" },
-          { "path": "/" },
-          { "path": "/404.html" }
+          { "id": "SitePage /404/", "path": "/404/" },
+          { "id": "SitePage /about-me/", "path": "/about-me/" },
+          { "id": "SitePage /", "path": "/" },
+          { "id": "SitePage /404.html", "path": "/404.html" }
         ]
       }
     },
-    "pageContext": { "isCreatedByStatefulCreatePages": true }
+    "pageContext": {}
   }
 }

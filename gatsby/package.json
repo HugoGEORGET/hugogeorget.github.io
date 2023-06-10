@@ -5,7 +5,7 @@
   "author": "Milos Lekovic <milos085@gmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.7",
-    "gatsby": "^2.19.12",
+    "gatsby": "^4.25.7",
     "gatsby-image": "^2.2.40",
     "gatsby-plugin-manifest": "^2.2.41",
     "gatsby-plugin-offline": "^3.0.34",
